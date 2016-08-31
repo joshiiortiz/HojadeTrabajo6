@@ -1,0 +1,84 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Hoja6;
+
+import java.util.Scanner;
+import java.util.Set;
+
+/**
+ *
+ * @author Joseline
+ */
+public class MainHoja6 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Set JavaDesarrolladores;
+        Set WebDesarrolladores;
+        Set CelularDesarrolladores;
+        
+        int opcion = 0;
+        SetFactory_setFactory = new SetFactory();
+        while (opcion != 4){
+            opcion = Menu();
+            switch (opcion);
+                {
+                case 1:
+                    System.out.println("Creacion de conjuntos");
+                    String tipoSet = MenuConjuntos();
+                    JavaDesarrolladores = _setFactory.ObtenerSet(tipoSet);
+                    WebDesarrolladores = _setFactory.ObtenerSet(tipoSet);
+                    CelularDesarrolladores = _setFactory.ObtenerSet(tipoSet);
+                    
+                break;
+                case 2:
+                    System.out.println("Agregar usuarios");
+                    switch(MenuDesarrolladores()){
+                        case 1:
+                            
+                    }
+                case 3:
+                    System.out.println("Operaciones");
+                    
+                    Iterato
+                    
+            }
+        } System.exit(0);
+    }
+    
+    String MenuConjuntos(){
+        System.out.println("Creacion de conjuntos");
+        System.out.println("\n Porfavor escoja el tipo de Set a usar: ");
+        System.out.println("1. HashSet");
+        System.out.println("2. TreeSet");
+        System.out.println("3. LinkedHashSet");
+        Scanner in = new Scanner(System.in);
+    }
+    
+    int Menu(){
+        System.out.println("Bienvenido");
+        System.out.println("\n Porfavor ingrese una opcion");
+        System.out.println("1. Crear los conjuntos");
+        System.out.println("2. Agregar desarrolladores");
+        System.out.println("3. Crear operaciones");
+        return Integer.getInteger()
+    }
+    void Conjuntos(){
+        System.out.println("Creacion de conjuntos");
+        System.out.println("\n Porfavor ingrese una opcion");
+        System.out.println("1. Crear los conjuntos");
+        System.out.println("2. Agregar desarrolladores");
+        System.out.println("3. Crear operaciones");
+        System.out.println("4. Salir");
+        return Integer.getInteger()
+    }
+    void 
+    
+    
+}
